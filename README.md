@@ -1,4 +1,4 @@
-# api-imdb-python
+# api-imdb-python #7DaysOfCode
 
 Projeto de treinamento e estudo - #7DaysofCode - Alura  
 Necessario se cadastrar no [Imdb](https://imdb-api.com/) para gerar o api_key de consulta do projeto  
@@ -37,7 +37,7 @@ INFO:     Application startup complete.
 ``` 
  - http://localhost:8000/redoc
  ![](assets/api-imdb.png)
- 
+
 ## Referencias 
 
 - [Alura #7DaysofCode](https://7daysofcode.io/matricula/java)
