@@ -6,7 +6,6 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-
 @app.get("/")
 def read_root():
     """ API publica de consulta de filmes na base do IMDB """
