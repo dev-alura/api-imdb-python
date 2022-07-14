@@ -19,11 +19,14 @@ sem a necessidade de instalação extra apenas Docker rodando na maquina, Window
 
 Após baixar o repositorio, entre no devcontainer e rode:
 
+**Processo já automatizado no deploy.sh**
+
 crie um arquivo .env com as informações
  - HOST_IMDB=https://imdb-api.com
  - API_KEY=<chave-imdb>
 
-no diretorio app/  
+no diretorio app/ 
+ 
 ```bash
 uvicorn main:app --env-file .env --reload
 
